@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:var(--min-color) ;
+    
+}
+
+:root {
+    --min-color: #E35868 ;
+    --form-color: #868585;
+    --second-color: #2c3a54;
+}
+
+
+.container {
+    box-shadow: 0 0 8px #461f1f;
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 250px;
+    margin: 70px auto;
+    background-color: #ffff;
+    padding: 20px 25px ;
+    border-radius: 4px;
+}
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+p {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+div .email {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--form-color);
+    width: 395px;
+    font-size: .9rem;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0 0 8px 5px;
+    transition:ease .5s;
+}
+
+div .email:focus {
+    border-color:var(--min-color);
+
+}
+div .email:hover {
+    border-color:var(--min-color);
+}
+
+div .pass {
+    margin-top: 2.2rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--form-color);
+    width: 395px;
+    font-size: .9rem;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0 0 8px 5px;
+    transition:ease .5s ;
+}
+
+div .pass:hover {
+    border-color:var(--min-color);
+}
+div .pass:focus {
+    border-color:var(--min-color);
+}
+
+.btn {
+    margin-left: 200px;
+    margin-top: 27px;
+    width: 225px;
+    padding: 15px;
+    display: block;
+    border: none;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius:0;
+    color: #fff;
+    background-color: var(--second-color);
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: var(--form-color);
+    text-transform: capitalize;
+    font-size: 1rem;
+    transition: ease .5s;
+}
+button {
+    margin-left: -25px;
+    margin-top: -45px;
+    width: 225px;
+    padding: 15px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius:4px
+    
+    
+}
+button:hover a{
+    color: #4267B2;
+}
